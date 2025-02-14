@@ -65,6 +65,17 @@ span.award {
     }
 }
 
+@media only screen and (max-width: 370px) {
+    html {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+}
+
+
 /* ------------------------------------------------------------------------- */
 
 
