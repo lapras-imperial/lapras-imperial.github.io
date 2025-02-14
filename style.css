@@ -124,9 +124,16 @@ li.meeting {
     .container {
         width: 94%;
     }
-    /* Make profile picture smaller. */
-    img#lapras-top {
-        width: 80px;
+    /* Make pictures smaller. */
+    img#mini-lapras {
+        width: 70px;
+    }
+     img#big-lapras {
+        width: 100px;
+    }
+
+    p#quote {
+	font-size: 0.9em;
     }
 }
 
