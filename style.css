@@ -65,13 +65,13 @@ span.award {
     }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 500px) {
     html {
         font-size: 1em;
     }
 
     h1 {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 }
 
@@ -129,6 +129,10 @@ li.meeting {
     margin-bottom: 20px;
 }
 
+section#meetings {
+    margin-bottom: 50px;
+}
+
 /* Adjust margin and width according to screen size. */
 @media only screen and (max-width: 770px) {
     /* Set variable width. */
@@ -139,12 +143,16 @@ li.meeting {
     img#mini-lapras {
         width: 70px;
     }
-     img#big-lapras {
+    img#big-lapras {
         width: 100px;
     }
 
     p#quote {
 	font-size: 0.9em;
+    }
+
+    section#meetings {
+        margin-bottom: 10px;
     }
 }
 
