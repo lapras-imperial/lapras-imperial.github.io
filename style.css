@@ -105,11 +105,15 @@ body {
     /* Setting required to make footer stick to the bottom. */
     position: relative;
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 /* Create space for the bottom stripes. */
 main {
-    padding-bottom: 120px;
+    flex: 1;
+    /* padding-bottom: 120px; */
 }
 
 /* Class to add left and right margins. */
@@ -130,7 +134,7 @@ li.meeting {
 }
 
 section#meetings {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 /* Adjust margin and width according to screen size. */
@@ -149,10 +153,6 @@ section#meetings {
 
     p#quote {
 	font-size: 0.9em;
-    }
-
-    section#meetings {
-        margin-bottom: 10px;
     }
 }
 
@@ -205,8 +205,5 @@ a:active {
 /* -- Footer. -------------------------------------------------------------- */
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
  }
  /* ------------------------------------------------------------------------- */
